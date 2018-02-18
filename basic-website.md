@@ -1,7 +1,14 @@
 # Basic Website
 
+### Create git repository
+- create new repository in github
+- in terminal, in Code folder, clone repo with url
+  - $ git clone 'url'
+  - (this will create new directory in Code folder)
+___
+
 ### Create project directory:
-- create project directory w/in Code folder (ex. portfolio) in command line
+- create project directory w/in Code folder (ex. portfolio) in command line (if you cloned git repo, this folder will already exist)
 - will create 2 items in portfolio
   1. server.js (touch)
   2. public (directory)
@@ -21,6 +28,7 @@ ___
 
 - $ npm install express path --save
   - installs express and path dependencies
+  - (needed to create server)
 
 
 - $ touch .gitignore
@@ -76,7 +84,7 @@ ___
 ** remember to add, commit, and push this to Github
 ___
 
-### Need to deploy to Heroku
+### Deploy to Heroku
 ** in terminal, in project directory (portfolio):
 - create new empty application on Heroku
   - $ heroku create

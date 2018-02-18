@@ -2,31 +2,32 @@
 
 - git branch : shows what branch you're currently in and all other branches
 - git status : shows status of new files in current branch (if things have been committed or not)
+___
 
 - git checkout -b (name of branch) : creates new branch and checks it out (goes to it)
-
+___
 
 - git add -A : adds all changes to commit cue
 - git add (name) : adds whatever is named
 - git add . : adds current folder/file
-
+___
 
 - git commit -m "something about what you're committing" : commits changes to current branch
-
+___
 
 - git push origin master : pushes commit to master remote
 - git push origin (branch name) : pushes commit to branch remote
-
+___
 
 - git pull origin master : pulls master remote to local
 - git pull origin (branch name) : pulls branch remote to local
-
+___
 
 - git clone (url) : use to link new github repo and local files
-
+___
 
 - git remote add origin
-
+___
 
 - git checkout.
 - git clean -df
