@@ -197,6 +197,9 @@ public/dist/*
 ** see portfolio2 example
 ___
 
+# mongo
+___
+
 # bootstrap
 ___
 
