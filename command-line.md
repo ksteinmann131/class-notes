@@ -40,6 +40,25 @@ ___
 - history : shows last 500 commands
 ___
 
+- grep : searches plain text data sets for lines that match a regular expression
+  - Globally search a Regular Expression and Print
+  - used to search text or searches the given file for lines containing a mach to the given string of words
+    - by default, displays the matching lines
+  - use grep to search for lines of text that match one or many regular expressions and outputs only the matching lines
+___
+
+#### Move an image.jpg into root directory
+
+Can save an image directly into our root(project) directory so that we don't have to pull the image with a link...
+- save the image into Downloads folder in .jpg format
+- in command line, first make sure image exists in Downloads
+- cd into root directory that we want image to be in
+- $ mv ~/Downloads/whatever.jpg .
+  - this calls the move function, then points to the user directory (~), then the Downloads directory, then the image(.jpg) file itself
+
+Can then reference the .jpg file directly in the project as it exist in the project directory.
+___
+
 ##### npm
 **n**ode
 **p**ackage

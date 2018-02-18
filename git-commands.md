@@ -1,10 +1,16 @@
 # Git Commands
 
+Remember that when we create a git repository and then clone it on our computer, we are creating the repo on both the remote (github.com) and local (our machine). We can then work on the local, and push/pull it to/from the remote so that both are synced.
+___
+
 - git branch : shows what branch you're currently in and all other branches
 - git status : shows status of new files in current branch (if things have been committed or not)
 ___
 
 - git checkout -b (name of branch) : creates new branch and checks it out (goes to it)
+- git branch -d 'name of branch' (then follow prompts in terminal) : deletes branch on local
+  - have to be in the master branch to do this action
+  - be careful with this!  only want to delete a branch on the local if it's already been pushed to the remote
 ___
 
 - git add -A : adds all changes to commit cue
