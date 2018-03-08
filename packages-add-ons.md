@@ -120,7 +120,7 @@ $ touch webpack.config.js
 ```
 module.exports = {
     entry: './app.js',
-    outpost: {
+    output: {
       filename: 'bundle.js'
     }
 };

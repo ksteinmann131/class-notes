@@ -122,6 +122,17 @@ ___
 
 ___
 
+### Async
+
+- when you run a file, everything calls at the same time, but if there are differences in the time that things take to load, code could break, things could be undefined if they haven't finished loading yet, etc.
+
+###### Async
+- promise library
+  - sets up a chain of asynchronous events that will run a certain times
+  - keyword "await" makes function wait until the previous thing has loaded before loading the next item
+
+___
+
 # **Psychology**
 
 ### 2 Types of Mindsets
@@ -151,7 +162,7 @@ ___
 ### Karpman Drama Triangle
 
 - Perp - Victim - Rescuer
-  - can break this cycle with the power of TED 
+  - can break this cycle with the power of TED
     - Perp becomes Challenge
     - Victim becomes Creator
     - Rescuer becomes Coach
